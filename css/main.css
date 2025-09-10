@@ -1,0 +1,893 @@
+@font-face {
+    font-family: 'F5.6';
+    src: url('../fonts/F56-Regular.woff') format('woff2'),
+        url('../fonts/F56-Regular.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    scroll-behavior:smooth;
+
+}
+
+
+#cover-wrapper {
+    overflow: clip;
+}
+
+
+
+
+#flecha {
+    position: fixed;
+    z-index: 100;
+     width: 100px;
+    height: 100px;
+    background-color: #d30606;
+    bottom: 1px;
+    right: 1px;
+    margin: 1%;
+    align-content: center;
+    width: 0%;
+}
+#flecha-box {
+    display: flex;
+    justify-content: center;
+}
+#flecha-box p {
+    text-align: center;
+    color: white;
+    font-size: 1.4em;
+}
+#body {
+    display: flex;
+    overflow: hidden;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+
+}
+
+#body h1 {
+    color: black;
+    font-size: 9em;
+    margin: auto auto;
+    font-family: 'F5.6';
+}
+
+/*HEADER SECTION*/
+#cover-wrapper {
+    display: none;
+}
+#main-wrapper {
+    display: flex;
+}
+
+#wrapper {
+    flex-basis: 68%;
+}
+
+#wrapper-2 {
+    flex-basis: 32%;
+}
+#header {
+    background: url('../img/53875932517_2fc74fde4a_o.jpg') no-repeat;
+    background-attachment: fixed;
+    background-size:contain;
+   
+    height: 300vh;
+}
+
+#navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3%;;
+} 
+#navigation h1 {
+    padding: 5%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+
+
+}
+
+#navigation h1> a {
+    color: white;
+    font-size: 3em;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'F5.6';
+
+}
+
+#navigation h1>p {
+    font-size: 0.5em;
+    font-weight: lighter;
+    color: white;
+    text-transform: uppercase;
+    padding: 3%;
+    font-family: "F5.6";
+}
+
+#header-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5%;
+}
+
+#header-block >p >a {
+  text-transform: uppercase;
+  color: black;
+  font-size: 0.9em;
+  font-weight: bold;
+    
+   
+}
+#header-block >p >a:hover {
+    transition: all 0.4s;
+    color: #d30606;
+   
+}
+#section-1 {
+    margin: 25%;
+    display: none;
+}
+#section-1 h1 {
+    font-family: 'F5.6';
+}
+
+#section-1 > article h2 {
+    font-size: 0.9em;
+    margin: 5%;
+    font-weight: 500;
+    color: gray;
+}
+
+#section-header {
+    display: flex;
+  justify-content: center;
+}
+
+#section-header h1 {
+    margin: 10%;
+}
+
+#section-header h1 a {
+    font-size: 4em;
+    color: black;
+    font-family: 'F5.6';
+    text-transform: uppercase;
+
+}
+#section-header h1 p {
+    text-transform: uppercase;
+    font-weight: 100;
+    font-family: 'F5.6';
+    font-size: 0.7em;
+    padding: 2%;
+}
+
+#about {
+    margin-top: 11%;
+    background: url("../img/53875940772_16c8e01675_o.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#section-about {
+    display: flex;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  padding: 4%;
+}
+
+#section-about h1 {
+    flex-basis: 20%;
+    font-size: 5em;
+    border: 1px solid white;
+    padding: 3%;
+    font-family: 'F5.6';
+}
+#section-about p {
+    flex-basis: 60%;
+    margin: 7%;
+}
+
+#contact-bar {
+    text-align: center;
+  color: black;
+  font-size: 7em;
+  font-weight: 200;
+  margin: 6%;
+}
+#contact-bar a {
+  color: #000000;
+  transition: all 1s;
+  font-family: 'F5.6';
+}
+
+#contact-bar a:hover {
+    color:#d30606;
+}
+
+
+/* fin of HEADER SECTION*/
+
+
+
+/*photos section*/
+
+#fotos {
+    padding: 1%;
+}
+.a {
+    display: flex;
+    justify-content: center;
+}
+.box-bord {
+    display: flex;
+    flex-direction: column;
+    margin-top: 17%;
+}
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.junto {
+    display: flex;
+    width: 44%;
+    margin: 5% auto;
+    flex-direction: column;
+}
+
+.junto h2 {
+    margin: 5%;
+    font-size: 3em;
+    border-bottom: 1px solid black;
+    font-family: 'F5.6';
+}
+
+.junto p {
+    text-align: center;
+}
+#fotos .box img {
+ max-width: 75%;
+}
+
+/*foto2*/
+
+.bord-dos {
+    flex-direction: row;
+    width: 100%;
+    margin: 10% 5%;
+}
+
+.junto-2 {
+    flex-basis: 30%;
+
+}
+
+.box-2 {
+    flex-basis: 60%;
+}
+
+
+/*foto-3*/
+
+.bord-tres {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+
+/*footer*/
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    text-align: center;
+    font-size: 0.7em;
+}
+#footer p {
+    color: black;
+    margin: 0.2%;
+}
+
+/*GALLERY*/
+
+#wrapper-gallery {
+    flex-basis: 30%;
+    transition: 1s;
+
+    margin: 3%;
+}
+#wrapper-gallery-2 {
+    flex-basis: 70%;
+}
+
+#listas {
+    font-size: 1em;
+  margin-top: 18%;
+}
+#listas p {
+    padding: 1%;
+}
+
+#hide {
+    font-family: "F5.6";
+    color: black;
+    font-weight: bold;
+    transition: all 0.2s;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    transition: all 1s;
+    cursor: pointer;
+
+}
+#hide:hover {
+    color: #d30606 !important;
+}
+
+#hide:hover .hidden {
+    display: block;
+    position: unset;
+  padding-left: 13%;
+  padding-top: 3%;
+  transition: all 1s;
+  font-size: 1em;
+}
+
+.hidden {
+    display: none;
+    transition: all 1s;
+}
+#listas p a {
+    font-family: "F5.6";
+    color: black;
+    font-weight: bold;
+    transition: all 0.2s;
+    text-transform: uppercase;
+    font-size: 0.8em;
+
+}
+#listas p a:hover {
+    color: #d30606 !important;
+}
+
+.link-home  {
+    margin: 11% 0%;
+}
+
+.link-home p a {
+    color: #645d5d !important;
+}
+
+
+
+#navigation-gallery h1 a {
+    text-transform: uppercase;
+    font-size: 3em;
+  color: black;
+  transition: all 0.8s;
+  font-family: 'F5.6';
+}
+
+#navigation-gallery h1 {
+    padding: 12% 0%;
+}
+#photograper{
+    text-transform: uppercase;
+    font-size: 0.5em;
+    font-family: "F5.6";
+    padding: 3%;
+    font-weight: 100;
+  
+
+}
+
+#navigation-gallery h1 a:hover {
+    color:#d30606 !important;
+}
+
+.toggle {
+    display: none;
+}
+
+.style {
+    margin-left: 9%;
+}
+
+.foto-gallery {
+    margin: 3%;
+}
+
+.foto-gallery img {
+    max-width: 100%;
+    transition: all 0.4s;
+}
+.foto-gallery img:hover {
+    opacity: 0.9;
+}
+
+#caja-box {
+    margin: 4% 2%;
+}
+
+#add h3 {
+    font-size: 2em;
+    color: #d30606;
+    text-align: center;
+    font-family: 'F5.6';
+}
+#add p {
+    margin: 5%;
+    text-align: center;
+}
+
+/*contacto*/
+
+#contacto-header h2 {
+    font-size: 4em;
+    text-align: center;
+    margin: 5% 3%;
+    font-family: 'F5.6';
+}
+
+#info {
+    margin: 4%;
+    width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#box-contact {
+
+    align-content: center;
+    align-items: center;
+    display: flex;
+  flex-direction: column;
+}
+
+#box-contact p {
+    flex-basis: 40%;
+}
+
+#box-contact .foto-gallery {
+    flex-basis: 60%;
+}
+
+
+/*form*/
+#form {
+    width:90%;
+    display: flex;
+  justify-content: center;
+}
+
+ label {
+    text-transform: uppercase;
+    margin: 3%;
+    font-family: 'F5.6';
+    font-size: 0.8em;
+}
+ fieldset {
+    border: none;
+}
+fieldset input {
+    width: 90%;
+    padding: 2% 4%;
+    border: none;
+    outline: none;
+  border-bottom: 0.5px solid gray;
+  font-size: 0.7em;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+  font-family: 'F5.6';
+}
+
+ fieldset p:focus-within label {
+    font-size: 0.6em;
+    transition: all 0.4s;
+}
+#form fieldset p {
+    margin: 3%;
+}
+#form #area {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+
+#form fieldset #area:focus-within label {
+    font-size: 0.6em;
+    transition: all 0.4s;
+}
+#form #textarea {
+    padding: 2% 4%;
+    outline: none;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    font-family: 'F5.6';
+    font-size: 0.7em;
+}
+
+#form #bott {
+    display: flex;
+  justify-content: end;
+}
+
+#form input[type='submit'] {
+    outline: none;
+  border: none;
+  color: gray;
+  width: 45%;
+  font-family: 'F5.6';
+  font-size: 0.8em;
+}
+
+
+.error {
+    color:#d30606;
+    text-transform: uppercase;
+    font-size: 0.7em;
+}
+
+.success {
+    font-size: 1em;
+    margin: 5% 6%;
+    color: #019b01;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*Form-login*/
+#cover-wrapper-fixed {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+
+}
+#form-login {
+
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#forma-login {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 92%;
+    flex-direction: column;
+}
+
+#junto {
+    display: flex;
+  align-items: center;
+}
+
+#header-form {
+    font-family: "F5.6";
+    text-transform: uppercase;
+    font-size: 4em;
+    opacity: 0;
+}
+
+#header-form-2 {
+    text-align: center;
+    font-weight: 300;
+    text-transform: full-size-kana;
+    font-size: 1em;
+    padding: 6%;
+}
+#p {
+    width: 70%;
+    opacity: 0;
+}
+
+#entrada {
+    display: flex;
+  justify-content: center;
+}
+
+#entrada input[type='submit'] {
+    text-transform: uppercase;
+  outline: none;
+  border: none;
+  color: gray;
+  padding: 2% 7%;
+  font-size: 0.8em;
+}
+
+#p h2 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5%;
+    font-family: "F5.6";
+    font-size: 1em;
+    border-bottom: 1px solid gray;
+    font-weight: 100;
+}
+
+#p p {
+    margin: 3%;
+}
+#p p:focus-within label {
+    font-size: 0.7em;
+    transition: all 0.5s;
+}
+
+#p input {
+    padding: 2%;
+    border-top: 0;
+  outline: none;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  font-family: "F5.6";
+  font-size: 0.8em;
+  width: 100%;
+}
+
+#botones {
+    padding: 3%;
+}
+#botones h2 {
+    font-size: 0.9em;
+}
+
+#botones-2 {
+    text-align: center;
+  display: flex;
+  justify-content: space-around;
+  padding: 5%;
+}
+
+#botones-2 a {
+    text-transform: uppercase;
+  color: black;
+  border:  1px solid white;
+  font-family: 'F5.6';
+  font-size: 0.8em;
+}
+#botones-2 a:hover {
+    color:#d30606;
+    transition: all 0.3s;
+}
+
+/*END OF FORM*/
+
+@media only screen and  (min-width:300px ) and ( max-width: 799px) {
+    #main-wrapper {
+      flex-direction: column;
+    }
+
+    #navigation h1 {
+        backdrop-filter: none;
+    }
+
+    #header {
+        background-position: center;
+        background-position-x: center;
+        background-position-x: -209px;
+        background-size: cover;
+        background-attachment: scroll;
+        height: 100vh;
+    }
+
+    #section-1 {
+        text-align: justify;
+        margin: 13%;
+    }
+    #section-header h1 {
+        text-align: center;
+        font-size: 1em;
+    }
+
+    #section-header {
+        padding: 9%;
+    }
+
+    #section-about {
+        flex-direction: column;
+        padding-top: 39%;
+        padding-bottom: 39%;
+    }
+
+    #section-about p {
+        font-size: 0.9em;
+        margin: 6% -1%;
+    text-align: justify;
+    }
+    #about {
+        background-attachment: scroll;
+    }
+
+    .junto {
+        width: 70%;
+    }
+    .junto h2 {
+        text-align: center;
+    }
+
+    .junto p {
+        text-align: justify;
+    }
+
+    #fotos .box img {
+        max-width: 92%;
+    }
+    .box-bord {
+        margin-top: 14%;
+    }
+
+    .bord-dos {
+        flex-direction: column;
+        margin: 0;
+        margin-top: 14%;
+    }
+
+    .junto h2 {
+        margin: 4%;
+    }
+
+    #contact-bar {
+        font-size: 3em;
+    }
+
+    #flecha {
+        height: 70px;
+        width: 70px;
+    }
+
+    #caja-box p {
+        font-size: 0.8em;
+        text-align: justify;
+    }
+    #add {
+        padding: 16% 5%;
+    }
+
+    #junto {
+        flex-direction: column;
+    }
+    #header-form {
+        text-align: center;
+    }
+
+    #botones h2 {
+        text-align: center;
+    }
+
+    #contacto-header h2 {
+        font-size: 3em;
+    }
+    #form {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    #form fieldset {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #box-contact {
+        display: inherit;
+    }
+    #form fieldset p {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #form #area {
+          width: 78%;
+    }
+
+
+    #form fieldset p {
+        margin: 1%;
+        width: 81%;
+        align-content: center;
+        align-items: baseline;
+    }
+
+  }
+
+  @media only screen and  (min-width:800px ) and (max-width: 1000px) {
+
+    #header {
+        background-size: contain;
+        background-position-x: -141px;
+    }
+    #navigation h1 {
+        font-size: 1.3em;
+        padding: 2%;
+    }
+    #navigation-gallery h1 a {
+        padding: 15% 3%;
+        font-size: 2.2em;
+    } 
+
+    #header-block {
+        padding: 6%;
+    }
+
+    #section-header h1 {
+        margin: 45%;
+        text-align: center;
+    }
+
+    #section-about {
+        padding: 12%;
+        flex-direction: column;
+    }
+
+    #section-about p {
+        padding: 7%;
+        text-align: justify;
+    }
+
+    .bord-dos {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    #contact-bar {
+        font-size: 5em;
+    }
+
+    #listas p {
+        margin: 8% 1%;
+    }
+
+    #contacto-header {
+        margin: 20% 0%;
+    }
+    #contacto-header h2 {
+        font-size: 3em;
+    }
+    #box-contact {
+        padding: 7%;
+    }
+
+    #form {
+        width: 0;
+    }
+
+  }
